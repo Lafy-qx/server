@@ -107,7 +107,6 @@ app.get("/api/house/:param", async (req, res) => {
   }
 });
 
-
 // Добавление Домов
 app.post("/api/house", async (req, res) => {
   console.log(req.body);
